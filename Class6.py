@@ -4,8 +4,8 @@ class Vehicle:
 class Car:
     price = 1000000
 
-    def horse_powers(self, horse=100):
-        return horse
+    def horse_powers(self):
+        return 100
 
 
 class Nissan(Vehicle, Car):
