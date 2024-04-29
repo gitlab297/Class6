@@ -10,9 +10,9 @@ class Car:
 
 class Nissan(Vehicle, Car):
     price = 2500000
+    horse_powers = 250
 
 
-Nissan.horse = 250
 Nissan.vehicle_type = 'Sedan'
 
-print('Машина Nissan цена {} мощность {} тип {}'.format(Nissan.price, Nissan.horse, Nissan.vehicle_type))
+print('Машина Nissan цена {} мощность {} тип {}'.format(Nissan.price, Nissan.horse_powers, Nissan.vehicle_type))
